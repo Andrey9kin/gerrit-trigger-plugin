@@ -136,10 +136,10 @@ public class GerritServer implements Describable<GerritServer>, Action {
      */
     public static final String ANY_SERVER = "__ANY__";
     private static final int THREADS_FOR_TEST_CONNECTION = 1;
-    private static final int TIMEOUT_FOR_TEST_CONNECTION = 10;
+    private static final int TIMEOUT_FOR_TEST_CONNECTION = 60;
     private static final int RESPONSE_COUNT = 1;
     private static final int RESPONSE_INTERVAL_MS = 1000;
-    private static final int RESPONSE_TIMEOUT_S = 10;
+    private static final int RESPONSE_TIMEOUT_S = 60;
     private String name;
     @Deprecated
     private transient boolean pseudoMode;
